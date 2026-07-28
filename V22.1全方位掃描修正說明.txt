@@ -1,0 +1,19 @@
+V22.1 Hopper 全方位掃描結果
+
+已確認真正問題：
+1. Hopper 在遊戲內實際使用 civ_rabbit。
+2. civ_rabbit_city 仍連到舊版「妖族城名／妖族勢力後綴」，因此出現簡體與舊詞庫名字。
+3. civ_rabbit_kingdom 仍連到舊版「妖族部族名／妖族勢力後綴」，因此王國也混入舊資料庫。
+
+本版修正：
+- civ_rabbit_city → Hopper 村莊專屬詞庫
+- civ_rabbit_kingdom → Hopper 王國全名詞庫
+- 移除無效重複別名 civ_rabbit_name_v22
+
+掃描通過：
+- JSON 全部可解析
+- 無重複 Generator ID
+- Hopper 軍隊、氏族、宗教、文化、語言、家庭、亞種路由均已指向 Hopper 專屬詞庫
+- Monke 路由未修改
+
+提醒：舊世界已生成的名稱通常不會自動重命名；請用新世界或新生成的王國／村莊測試。

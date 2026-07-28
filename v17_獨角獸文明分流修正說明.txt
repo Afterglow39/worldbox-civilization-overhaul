@@ -1,0 +1,6 @@
+V17 修正內容
+
+1. 野生 Unicorn：維持第2類魔法自然命名。
+2. Unicorn 開智後成為 Punkcorn：固定使用第5類智人／文明命名。
+3. 同時兼容內部 ID 已變成 punkcorn，以及畫面已變成 Punkcorn、但內部仍保留 unicorn ID 的兩種情況。
+4. 不修改 Liliar、Crystal Golem 與其他已正常路由。

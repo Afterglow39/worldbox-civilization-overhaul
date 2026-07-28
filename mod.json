@@ -1,0 +1,8 @@
+{
+  "name": "自創中文名-西方奇幻改造 V25.1 Coolbeak 企鵝人路由修正版",
+  "author": "一米（原作）· 西方奇幻重構",
+  "version": "25.1",
+  "description": "V25.1：修正 Coolbeak 實際文明 ID 為 civ_penguin（企鵝人），不再誤把普通動物 Penguin 當作 Coolbeak。Coolbeak 的人名、王國、村莊、軍隊、氏族、家庭、宗教、文化、語言、亞種、戰爭與同盟均接入企鵝人文明。",
+  "iconPath": "icon.png",
+  "GUID": "一米_中文名"
+}

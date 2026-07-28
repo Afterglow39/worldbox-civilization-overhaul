@@ -1,0 +1,10 @@
+V8 五類最終補正驗證版
+
+本版依遊戲實測修正：
+2 魔法自然：Bitba／Liliar 路由、Acid Blob
+3 黑暗生物：Zombie、Fire Elemental（含疑似別名）
+4 異界：Tumor Monster（含 Tumor／Bioblob 別名）
+5 智人／文明：Armaldar、Barkfolk、Punkcorn、Herdor、Chillbara、Scorp、Navy Seal、Dunglord
+1 動物：Ant（含 civ_ant 與四色螞蟻路由）
+
+重點：普通動物模板仍是 1；只有相對應的 civ_ 智慧人形模板改成 5，避免犰狳與犰狳人一起被分到同一類。

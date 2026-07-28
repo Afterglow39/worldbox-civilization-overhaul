@@ -1,0 +1,8 @@
+V9 三隻特殊生物補正測試
+
+Bitba → 2（含 bitba / Bitba / liliar / Liliar 候選）
+Fire Elemental → 3（含空格、底線、連字號、大小寫與 fire_dlemental 拼字候選）
+Punkcorn → 5（含 punkcorn / Punkcorn / punk_corn / punk-corn 候選）
+
+另外 ActorNamePatch 會對 Asset ID 做小寫化、空格/連字號轉底線，再依關鍵字強制導向上述三套模板。
+其餘 V8 分類保持不變。

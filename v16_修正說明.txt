@@ -1,0 +1,5 @@
+V16 修正：
+1. civ_liliar_name 與 civ_Liliar_name 恢復第5類「智人文明名稱驗證」。
+2. civ_crystal_golem_name 恢復第5類，不再使用水晶劍／魔法自然詞庫。
+3. crystal_sword_name 保留第2類水晶劍命名（例如星刃）。
+4. garl_name 改為大蒜專屬完整名、二段名、三段名，不再使用泛綠色植物詞彙。

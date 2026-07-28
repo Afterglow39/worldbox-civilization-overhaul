@@ -1,0 +1,11 @@
+V25.1 Coolbeak 企鵝人路由修正版
+
+問題原因：
+V25 建立了 civ_coolbeak_* 生成器，但遊戲中 Coolbeak 的實際文明 ID 沿用 civ_penguin；普通動物企鵝則使用 penguin_name。
+因此遊戲沒有命中 Coolbeak 詞庫。
+
+本次修正：
+1. 將 civ_penguin_name / kingdom / city 直接改接 Coolbeak 詞庫。
+2. 新增 civ_penguin 的軍隊、氏族、家庭、宗教、文化、語言、亞種、戰爭、同盟別名。
+3. 程式辨識只加入 civ_penguin 等企鵝人文明 ID，不加入單純 penguin，避免普通企鵝被誤判。
+4. 保留原本普通企鵝 penguin_name。

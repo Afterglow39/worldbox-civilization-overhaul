@@ -1,0 +1,120 @@
+v6 五類數字驗證版
+
+顯示結果：
+1 = 動物
+2 = 魔法自然
+3 = 黑暗生物
+4 = 異界
+5 = 智人／文明
+
+人類、精靈、矮人、獸人，以及 CSV 標記「保留原版」的模板不修改。
+CSV 中尚未填最終分類的模板也暫時保留原本名稱。
+
+本次接線數量：
+- 動物: 22 個模板
+- 魔法自然: 7 個模板
+- 黑暗生物: 8 個模板
+- 異界: 5 個模板
+- 智人/文明: 45 個模板
+
+完整接線：
+5 | 智人/文明 | creatures.json | civ_druid_name
+5 | 智人/文明 | creatures.json | civ_white_mage_name
+5 | 智人/文明 | creatures.json | civ_angle_name
+5 | 智人/文明 | creatures.json | civ_cat_name
+5 | 智人/文明 | creatures.json | civ_dog_name
+5 | 智人/文明 | creatures.json | civ_chicken_name
+5 | 智人/文明 | creatures.json | civ_rabbit_name
+5 | 智人/文明 | creatures.json | civ_monkey_name
+5 | 智人/文明 | creatures.json | civ_fox_name
+5 | 智人/文明 | creatures.json | civ_sheep_name
+5 | 智人/文明 | creatures.json | civ_cow_name
+5 | 智人/文明 | creatures.json | civ_garlic_man_name
+5 | 智人/文明 | creatures.json | civ_lemon_man_name
+5 | 智人/文明 | creatures.json | civ_acid_gentleman_name
+5 | 智人/文明 | creatures.json | civ_candy_man_name
+5 | 智人/文明 | creatures.json | civ_wolf_name
+5 | 智人/文明 | creatures.json | civ_bear_name
+5 | 智人/文明 | creatures.json | civ_crocodile_name
+5 | 智人/文明 | creatures.json | civ_snake_name
+5 | 智人/文明 | creatures.json | civ_crystal_golem_name
+5 | 智人/文明 | creatures.json | civ_greg_name
+5 | 智人/文明 | creatures.json | civ_bee_name
+5 | 智人/文明 | creatures.json | civ_beetle_name
+5 | 智人/文明 | creatures.json | civ_armadillo_name
+5 | 智人/文明 | creatures.json | civ_rhino_name
+5 | 智人/文明 | creatures.json | civ_buffalo_name
+5 | 智人/文明 | creatures.json | civ_hyena_name
+5 | 智人/文明 | creatures.json | civ_rat_name
+5 | 智人/文明 | creatures.json | civ_alpaca_name
+5 | 智人/文明 | creatures.json | civ_capybara_name
+5 | 智人/文明 | creatures.json | civ_goat_name
+5 | 智人/文明 | creatures.json | civ_scorpion_name
+5 | 智人/文明 | creatures.json | civ_crab_name
+5 | 智人/文明 | creatures.json | civ_penguin_name
+5 | 智人/文明 | creatures.json | civ_turtle_name
+5 | 智人/文明 | creatures.json | civ_frog_name
+5 | 智人/文明 | creatures.json | civ_piranha_name
+5 | 智人/文明 | creatures.json | civ_snowman_name
+5 | 智人/文明 | creatures.json | civ_demon_name
+5 | 智人/文明 | creatures.json | civ_evil_mage_name
+5 | 智人/文明 | creatures.json | civ_bandit_name
+5 | 智人/文明 | creatures.json | civ_alien_name
+5 | 智人/文明 | creatures.json | civ_liliar_name
+5 | 智人/文明 | creatures.json | civ_necromancer_name
+5 | 智人/文明 | creatures.json | civ_cold_one_name
+1 | 動物 | other_creatures.json | sheep_name
+1 | 動物 | other_creatures.json | penguin_name
+1 | 動物 | other_creatures.json | turtle_name
+1 | 動物 | other_creatures.json | wolf_name
+4 | 異界 | other_creatures.json | greg_name
+1 | 動物 | other_creatures.json | chicken_name
+4 | 異界 | other_creatures.json | alien_name
+4 | 異界 | other_creatures.json | ufo_name
+3 | 黑暗生物 | other_creatures.json | cold_one_name
+1 | 動物 | other_creatures.json | bug_name
+1 | 動物 | other_creatures.json | ant_name
+3 | 黑暗生物 | other_creatures.json | demon_name
+2 | 魔法自然 | other_creatures.json | fairy_name
+1 | 動物 | other_creatures.json | crab_name
+1 | 動物 | other_creatures.json | cow_name
+3 | 黑暗生物 | other_creatures.json | evil_mage_name
+1 | 動物 | other_creatures.json | rhino_name
+1 | 動物 | other_creatures.json | monkey_name
+1 | 動物 | other_creatures.json | buffalo_name
+1 | 動物 | other_creatures.json | fox_name
+1 | 動物 | other_creatures.json | hyena_name
+1 | 動物 | other_creatures.json | crocodile_name
+1 | 動物 | other_creatures.json | snake_name
+1 | 動物 | other_creatures.json | frog_name
+4 | 異界 | other_creatures.json | bioblob_name
+2 | 魔法自然 | other_creatures.json | lemon_name
+2 | 魔法自然 | other_creatures.json | candy_name
+2 | 魔法自然 | other_creatures.json | crystal_name
+2 | 魔法自然 | other_creatures.json | crystal_sword_name
+3 | 黑暗生物 | other_creatures.json | fire_skull_name
+3 | 黑暗生物 | other_creatures.json | fire_elemental_name
+4 | 異界 | other_creatures.json | acid_blob_name
+3 | 黑暗生物 | other_creatures.json | jumpy_skull_name
+2 | 魔法自然 | other_creatures.json | lil_pumpkin_name
+1 | 動物 | other_creatures.json | rat_name
+1 | 動物 | other_creatures.json | cat_name
+1 | 動物 | other_creatures.json | rabbit_name
+1 | 動物 | other_creatures.json | piranha_name
+2 | 魔法自然 | other_creatures.json | snowman_name
+1 | 動物 | other_creatures.json | bear_name
+3 | 黑暗生物 | other_creatures.json | skeleton_name
+3 | 黑暗生物 | other_creatures.json | ghost_name
+
+未修改模板：
+- creatures.json | Cultiway.EasternHuman_name
+- creatures.json | Cultiway.Gui_name
+- creatures.json | human_name
+- creatures.json | dwarf_name
+- creatures.json | elf_name
+- creatures.json | orc_name
+- creatures.json | default_name
+- other_creatures.json | assimilator_name
+- other_creatures.json | homie_name
+- other_creatures.json | living_plant_name
+- other_creatures.json | default_name

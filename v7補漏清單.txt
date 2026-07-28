@@ -1,0 +1,16 @@
+1 = 動物名稱驗證
+dog, armadillo, raccoon, alpaca, goat, ostrich, capybara, scorpion, seal, bee, butterfly, beetle, grasshopper, fly, blue_ant, green_ant, black_ant, red_ant, sand_spider
+
+2 = 魔法自然名稱驗證
+flower_bud, bitba, smore, garl, unicorn
+
+3 = 黑暗生物名稱驗證
+necromancer, zombie, dragon, fire_elemental
+
+4 = 異界名稱驗證
+acid_blob, angel, angle, tumor_monster, assimilator
+
+5 = 智人文明名稱驗證
+bandit, plague_doctor, white_mage, druid, punkcorn, navy_seal
+
+每個名稱同時補入 base_name 與 civ_base_name，以測試普通單位與文明／智慧版本是否都進入相同分類。
